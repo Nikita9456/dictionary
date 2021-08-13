@@ -1,0 +1,11 @@
+my_dict={
+    "a":50,
+    "b":58,
+    "c":65,
+    "d":65,
+    "y":98,
+    "w":32
+}
+n=sorted(my_dict.values())
+k=n[-3:]
+print(k)
